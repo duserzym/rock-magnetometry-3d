@@ -64,8 +64,8 @@ sup, sub { font-size: 0.72em; line-height: 0; }
 }
 .brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .brand-mark {
-  width: 26px; height: 26px; border-radius: 7px; flex: none;
-  background: conic-gradient(from 210deg, #ffb347, #ff6b6b, #67b7ff, #49d3a5, #ffb347);
+  display: block; width: 32px; height: 32px; flex: none;
+  object-fit: contain; border-radius: 0;
 }
 .brand-title { font-weight: 700; letter-spacing: 0.02em; }
 .brand-sub { font-size: 12px; color: var(--fg-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 32vw; }
@@ -197,7 +197,6 @@ table.tbl td.num { font-family: var(--mono); text-align: right; white-space: now
 .scene-link { display: block; color: var(--accent); font-size: 12.5px; padding: 6px 0; text-decoration: none; }
 .scene-link:hover { text-decoration: underline; }
 .overlay-sub { color: #aebfd1; font-size: 11px; margin-top: 5px; }
-.brand-mark { background: url('../public/icon.svg') center/contain no-repeat; border-radius: 0; }
 button:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 @media (min-width: 1101px) { #app { grid-template-columns: 224px minmax(0,1fr) 370px; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
