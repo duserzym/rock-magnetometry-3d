@@ -1,0 +1,18 @@
+Magnetometry 3D — general educational diagrams
+
+Copyright (c) 2026 duserzym and contributors. Project software and original
+teaching geometry are offered under the MIT license in LICENSE.txt. The app
+shell and styling derive from duserzym/tims-3d under the same MIT license and
+copyright notice. See THIRD_PARTY_LICENSES.txt for bundled software notices.
+
+These are general teaching models, independent of any instrument manufacturer.
+No affiliation or endorsement is implied. No product or company branding is
+used to identify the instrument diagrams.
+
+Geometry, enclosure dimensions, panel motions, component placement, winding
+counts and signal models are illustrative. They are not instrument CAD,
+certified simulations, manufacturing drawings or maintenance instructions.
+
+Manufacturer manuals, brochures, photographs, logos, proprietary CAD, firmware
+and measured datasets are not bundled. Scientific references retain their own
+rights; citations and the MIT project license do not relicense those materials.
